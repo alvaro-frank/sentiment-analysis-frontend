@@ -9,23 +9,23 @@ A modern, responsive, and high-performance frontend for the Sentiment Analysis N
 
 ## 📂 Project Structure
 ```text
-├── public/                 # Static assets (Favicon, icons)
+├── public/                       # Static assets (Favicon, icons)
 ├── src/
-│   ├── components/         # Reusable UI components
-│   │   ├── SentimentForm.tsx   # Form for text input and action triggers
-│   │   └── SentimentResult.tsx # Visualizes the sentiment score and label
-│   ├── hooks/              # Custom React hooks
-│   │   └── useSentiment.ts     # Manages state, loading, and side-effects for API calls
-│   ├── services/           # External API integrations
-│   │   └── api.ts              # Fetch requests to the FastAPI backend endpoint
-│   ├── types/              # TypeScript interfaces and DTOs
-│   │   └── index.ts            # Type definitions for Requests and Responses
-│   ├── App.tsx             # Main application layout and state orchestration
-│   ├── main.tsx            # React application entry point
-│   └── index.css           # Global CSS and theming
-├── package.json            # Project dependencies and npm scripts
-├── tsconfig.json           # TypeScript configuration
-└── vite.config.ts          # Vite configuration and backend API proxying
+│   ├── components/               # Reusable UI components
+│   │   ├── SentimentForm.tsx     # Form for text input and action triggers
+│   │   └── SentimentResult.tsx   # Visualizes the sentiment score and label
+│   ├── hooks/                    # Custom React hooks
+│   │   └── useSentiment.ts       # Manages state, loading, and side-effects for API calls
+│   ├── services/                 # External API integrations
+│   │   └── api.ts                # Fetch requests to the FastAPI backend endpoint
+│   ├── types/                    # TypeScript interfaces and DTOs
+│   │   └── index.ts              # Type definitions for Requests and Responses
+│   ├── App.tsx                   # Main application layout and state orchestration
+│   ├── main.tsx                  # React application entry point
+│   └── index.css                 # Global CSS and theming
+├── package.json                  # Project dependencies and npm scripts
+├── tsconfig.json                 # TypeScript configuration
+└── vite.config.ts                # Vite configuration and backend API proxying
 ```
 
 ## 🛠️ Setup & Requirements
